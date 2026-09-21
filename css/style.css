@@ -1,1 +1,245 @@
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    background-color: rgb(28, 26, 26);
+    height: 100vh;
+    font-family: 'Segoe UI';
+}
+
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    padding: 50px;
+}
+
+img{
+    width: 60px;
+
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 3s;
+}
+
+nav{
+    display: flex;
+    /* justify-self: start;
+    align-items: start; */
+    gap: 15px;
+}
+
+.reg{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: rgb(175, 10, 10);
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 .start{
+    width: 500px;
+    padding: 0 20px;
+}
+
+.section1 .start h1{
+    color: white;
+    margin-bottom: 5px;
+    
+}
+.section1 .start span{
+    color: red;
+}
+
+
+.section1 .start p{
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.section1 .end img{
+    width: 400px;
+}
+
+
+.section1 .start button{
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding:  10px;
+    transition: 0.5s;
+}
+
+
+.section1 .start button:hover{
+    background-color: rgb(97, 27, 27);
+}
+
+
+.section2{
+    background-color: red;
+    text-align: center;
+    /* height: 300px; */
+}
+ 
+.products{
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
+    gap: 100px;
+    padding: 50px;
+    margin-bottom: 5px;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    padding: 5 10;
+
+
+}
+
+.shoppingcart{
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.shose1{
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+
+
+
+}
+
+.shose2{
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    padding: 5 10;
+
+}
+
+.shose3{
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+   height: 400px;
+}
+
+.div4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    padding: 5 10;
+
+}
+
+.section2 img{
+    width: 200px;
+}
+
+
+.div p{
+    width: 200px;
+}
+
+
+h2{
+    margin-top: 20px;
+    color: white;
+}
+
+.price{
+    color: red;
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 40px;
+}
+
+.Email {
+    display: flex;
+    flex-direction: column; 
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Email h2 {
+    color: red;
+
+}
+
+.Email p {
+    color: white;
+}
+
+.Email input {
+    width: 200px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.Email button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
